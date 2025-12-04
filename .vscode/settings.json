@@ -1,3 +1,6 @@
 {
-    "python.defaultInterpreterPath": "E:\\GraduationDesign\\project-coding-tools\\Miniconda\\envs\\csc_project\\python.exe"
+    "python.defaultInterpreterPath": "E:\\GraduationDesign\\project-coding-tools\\Miniconda\\envs\\csc_project\\python.exe",
+    "files.readonlyInclude": {
+        "{**/.c4z/.extsrcs/*.PROTSYM.cbl,**/.c4z/.extsrcs/*.PROTSYM.listing}": true
+    }
 }

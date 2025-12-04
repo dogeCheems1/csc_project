@@ -10,18 +10,33 @@ import operator
 import time
 import sys
 import os
+
+# 禁用所有代理设置
+os.environ['NO_PROXY'] = '*'
+os.environ['no_proxy'] = '*'
+os.environ['HTTP_PROXY'] = ''
+os.environ['HTTPS_PROXY'] = ''
+os.environ['http_proxy'] = ''
+os.environ['https_proxy'] = ''
+os.environ['ALL_PROXY'] = ''
+os.environ['all_proxy'] = ''
+
 os.environ["USE_TORCH"] = "1"
 from transformers import BertConfig, BertTokenizer, BertForMaskedLM
 import torch
 
 
+
+# 使用本地已下载的模型路径
+pretrained_model_name_or_path = "../../macro_correct/output/text_correction/macbert4mdcspell_v2"
+# 如果本地路径不存在，可以尝试在线下载（需要网络）
+# pretrained_model_name_or_path = "Macropodus/macbert4mdcspell_v2"
 # pretrained_model_name_or_path = "../../macro_correct/output/text_correction/macbert4mdcspell_v1"
 # pretrained_model_name_or_path = "../../macro_correct/output/text_correction/macbert4csc_v1"
 # pretrained_model_name_or_path = "../../macro_correct/output/text_correction/macbert4csc_v2"
 # pretrained_model_name_or_path = "../../macro_correct/output/text_correction/bert4csc_v1"
 # pretrained_model_name_or_path = "shibing624/macbert4csc-base-chinese"
 # pretrained_model_name_or_path = "Macropodus/macbert4mdcspell_v1"
-pretrained_model_name_or_path = "Macropodus/macbert4mdcspell_v2"
 # pretrained_model_name_or_path = "Macropodus/macbert4csc_v1"
 # pretrained_model_name_or_path = "Macropodus/macbert4csc_v2"
 # pretrained_model_name_or_path = "Macropodus/bert4csc_v1"

@@ -1,0 +1,115 @@
+02/20/2026 20:12:52 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - run_dir=D:\Code_Projects\Personal_Projects\csc_project-1\macro_correct\output\text_correction\stage2_wang\without_wang_seed42_20260220_201252
+02/20/2026 20:12:52 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - dataset_profile=sighan_all, use_pinyin=True, seed=42
+02/20/2026 20:12:52 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - device=cuda, n_gpu=1
+02/20/2026 20:12:59 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - train_examples=6476, dev_examples=3162
+02/20/2026 20:12:59 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [sample] id=train-0
+02/20/2026 20:12:59 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [sample] src=没问题，那你去把！
+02/20/2026 20:12:59 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [sample] trg=没问题，那你去吧！
+02/20/2026 20:12:59 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [sample] id=train-1
+02/20/2026 20:12:59 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [sample] src=我认为现在每个人不管男生还是女生，都可以上课上班，也可以做好得工作。
+02/20/2026 20:12:59 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [sample] trg=我认为现在每个人不管男生还是女生，都可以上课上班，也可以做好的工作。
+02/20/2026 20:12:59 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [sample] id=train-2
+02/20/2026 20:12:59 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [sample] src=对于教室每个不同的角落我早已十分熟悉，我最喜欢的地方靠近后门的出口位置。
+02/20/2026 20:12:59 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [sample] trg=对于教室每个不同的角落我早已十分熟悉，我最喜欢的地方靠近后门的出口位置。
+02/20/2026 20:13:07 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [sample] id=dev-0
+02/20/2026 20:13:07 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [sample] src=遇到逆竟时，我们必须勇于面对，而且要愈挫愈勇，这样我们才能朝著成功之路前进。
+02/20/2026 20:13:07 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [sample] trg=遇到逆境时，我们必须勇于面对，而且要愈挫愈勇，这样我们才能朝著成功之路前进。
+02/20/2026 20:13:07 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [sample] id=dev-1
+02/20/2026 20:13:07 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [sample] src=大自然也一样的，无法天天都是晴天，天天都很顺利，但生活，就是如此这般，有失才有得，只是每个人是如何去看侍的。
+02/20/2026 20:13:07 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [sample] trg=大自然也一样的，无法天天都是晴天，天天都很顺利，但生活，就是如此这般，有失才有得，只是每个人是如何去看待的。
+02/20/2026 20:13:07 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [sample] id=dev-2
+02/20/2026 20:13:07 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [sample] src=刘墉在三岁过年时，全家陷入火海，把家烧得面目全飞、体无完肤。
+02/20/2026 20:13:07 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [sample] trg=刘墉在三岁过年时，全家陷入火海，把家烧得面目全非、体无完肤。
+02/20/2026 20:13:12 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - ***** start training *****
+02/20/2026 20:13:12 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - max_train_steps=1800, num_train_epochs=18, save_steps=150
+02/20/2026 20:13:12 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - ========== epoch 1/18 ==========
+02/20/2026 20:38:58 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - ========== epoch 2/18 ==========
+02/20/2026 20:53:48 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] sample prediction:
+02/20/2026 20:53:48 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] src: 遇到逆竟时，我们必须勇于面对，而且要愈挫愈勇，这样我们才能朝著成功之路前进。
+02/20/2026 20:53:48 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] trg: 遇到逆境时，我们必须勇于面对，而且要愈挫愈勇，这样我们才能朝著成功之路前进。
+02/20/2026 20:53:48 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] prd: 遇到逆竟时，我们必须勇于面对，而且要愈挫愈勇，这样我们才能朝著成功之路前进。
+02/20/2026 20:53:48 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] step=150 cor_f1=0.0233 det_f1=0.0376 cor_p=0.7500 cor_r=0.0118
+02/20/2026 20:53:48 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [gate] mean=0.5950 std=0.0831
+02/20/2026 21:07:02 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - ========== epoch 3/18 ==========
+02/20/2026 21:34:15 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] sample prediction:
+02/20/2026 21:34:15 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] src: 遇到逆竟时，我们必须勇于面对，而且要愈挫愈勇，这样我们才能朝著成功之路前进。
+02/20/2026 21:34:15 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] trg: 遇到逆境时，我们必须勇于面对，而且要愈挫愈勇，这样我们才能朝著成功之路前进。
+02/20/2026 21:34:15 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] prd: 遇到逆响时，我们必须勇于面对，而且要愈挫愈勇，这样我们才能朝著成功之路前进。
+02/20/2026 21:34:15 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] step=300 cor_f1=0.2409 det_f1=0.3619 cor_p=0.7672 cor_r=0.1429
+02/20/2026 21:34:15 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [gate] mean=0.6478 std=0.0832
+02/20/2026 21:35:02 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - ========== epoch 4/18 ==========
+02/20/2026 22:00:34 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - ========== epoch 5/18 ==========
+02/20/2026 22:14:35 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] sample prediction:
+02/20/2026 22:14:35 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] src: 遇到逆竟时，我们必须勇于面对，而且要愈挫愈勇，这样我们才能朝著成功之路前进。
+02/20/2026 22:14:35 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] trg: 遇到逆境时，我们必须勇于面对，而且要愈挫愈勇，这样我们才能朝著成功之路前进。
+02/20/2026 22:14:35 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] prd: 遇到逆习时，我们必须勇于面对，而且要愈挫愈勇，这样我们才能朝著成功之路前进。
+02/20/2026 22:14:35 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] step=450 cor_f1=0.3486 det_f1=0.4837 cor_p=0.8028 cor_r=0.2227
+02/20/2026 22:14:35 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [gate] mean=0.6753 std=0.0831
+02/20/2026 22:28:30 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - ========== epoch 6/18 ==========
+02/20/2026 22:54:52 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] sample prediction:
+02/20/2026 22:54:52 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] src: 遇到逆竟时，我们必须勇于面对，而且要愈挫愈勇，这样我们才能朝著成功之路前进。
+02/20/2026 22:54:52 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] trg: 遇到逆境时，我们必须勇于面对，而且要愈挫愈勇，这样我们才能朝著成功之路前进。
+02/20/2026 22:54:52 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] prd: 遇到逆习时，我们必须勇于面对，而且要愈挫愈勇，这样我们才能朝著成功之路前进。
+02/20/2026 22:54:52 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] step=600 cor_f1=0.4043 det_f1=0.5451 cor_p=0.8277 cor_r=0.2675
+02/20/2026 22:54:52 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [gate] mean=0.6907 std=0.0833
+02/20/2026 22:56:25 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - ========== epoch 7/18 ==========
+02/20/2026 23:21:57 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - ========== epoch 8/18 ==========
+02/20/2026 23:35:12 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] sample prediction:
+02/20/2026 23:35:12 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] src: 遇到逆竟时，我们必须勇于面对，而且要愈挫愈勇，这样我们才能朝著成功之路前进。
+02/20/2026 23:35:12 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] trg: 遇到逆境时，我们必须勇于面对，而且要愈挫愈勇，这样我们才能朝著成功之路前进。
+02/20/2026 23:35:12 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] prd: 遇到逆习时，我们必须勇于面对，而且要愈挫愈勇，这样我们才能朝著成功之路前进。
+02/20/2026 23:35:12 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] step=750 cor_f1=0.4371 det_f1=0.5485 cor_p=0.8470 cor_r=0.2946
+02/20/2026 23:35:12 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [gate] mean=0.7005 std=0.0835
+02/20/2026 23:49:49 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - ========== epoch 9/18 ==========
+02/21/2026 00:15:21 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] sample prediction:
+02/21/2026 00:15:21 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] src: 遇到逆竟时，我们必须勇于面对，而且要愈挫愈勇，这样我们才能朝著成功之路前进。
+02/21/2026 00:15:21 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] trg: 遇到逆境时，我们必须勇于面对，而且要愈挫愈勇，这样我们才能朝著成功之路前进。
+02/21/2026 00:15:21 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] prd: 遇到逆顺时，我们必须勇于面对，而且要愈挫愈勇，这样我们才能朝著成功之路前进。
+02/21/2026 00:15:21 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] step=900 cor_f1=0.4564 det_f1=0.5650 cor_p=0.8508 cor_r=0.3118
+02/21/2026 00:15:21 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [gate] mean=0.7072 std=0.0835
+02/21/2026 00:17:40 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - ========== epoch 10/18 ==========
+02/21/2026 00:43:12 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - ========== epoch 11/18 ==========
+02/21/2026 00:55:42 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] sample prediction:
+02/21/2026 00:55:42 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] src: 遇到逆竟时，我们必须勇于面对，而且要愈挫愈勇，这样我们才能朝著成功之路前进。
+02/21/2026 00:55:42 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] trg: 遇到逆境时，我们必须勇于面对，而且要愈挫愈勇，这样我们才能朝著成功之路前进。
+02/21/2026 00:55:42 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] prd: 遇到逆境时，我们必须勇于面对，而且要愈挫愈勇，这样我们才能朝著成功之路前进。
+02/21/2026 00:55:42 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] step=1050 cor_f1=0.4604 det_f1=0.5662 cor_p=0.8427 cor_r=0.3167
+02/21/2026 00:55:42 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [gate] mean=0.7127 std=0.0835
+02/21/2026 01:11:03 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - ========== epoch 12/18 ==========
+02/21/2026 01:35:49 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] sample prediction:
+02/21/2026 01:35:49 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] src: 遇到逆竟时，我们必须勇于面对，而且要愈挫愈勇，这样我们才能朝著成功之路前进。
+02/21/2026 01:35:49 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] trg: 遇到逆境时，我们必须勇于面对，而且要愈挫愈勇，这样我们才能朝著成功之路前进。
+02/21/2026 01:35:49 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] prd: 遇到逆境时，我们必须勇于面对，而且要愈挫愈勇，这样我们才能朝著成功之路前进。
+02/21/2026 01:35:49 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] step=1200 cor_f1=0.4706 det_f1=0.5723 cor_p=0.8485 cor_r=0.3256
+02/21/2026 01:35:49 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [gate] mean=0.7160 std=0.0838
+02/21/2026 01:38:52 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - ========== epoch 13/18 ==========
+02/21/2026 02:04:22 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - ========== epoch 14/18 ==========
+02/21/2026 02:16:06 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] sample prediction:
+02/21/2026 02:16:06 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] src: 遇到逆竟时，我们必须勇于面对，而且要愈挫愈勇，这样我们才能朝著成功之路前进。
+02/21/2026 02:16:06 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] trg: 遇到逆境时，我们必须勇于面对，而且要愈挫愈勇，这样我们才能朝著成功之路前进。
+02/21/2026 02:16:06 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] prd: 遇到逆境时，我们必须勇于面对，而且要愈挫愈勇，这样我们才能朝著成功之路前进。
+02/21/2026 02:16:06 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] step=1350 cor_f1=0.4707 det_f1=0.5711 cor_p=0.8424 cor_r=0.3266
+02/21/2026 02:16:06 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [gate] mean=0.7188 std=0.0837
+02/21/2026 02:32:19 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - ========== epoch 15/18 ==========
+02/21/2026 02:56:23 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] sample prediction:
+02/21/2026 02:56:23 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] src: 遇到逆竟时，我们必须勇于面对，而且要愈挫愈勇，这样我们才能朝著成功之路前进。
+02/21/2026 02:56:23 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] trg: 遇到逆境时，我们必须勇于面对，而且要愈挫愈勇，这样我们才能朝著成功之路前进。
+02/21/2026 02:56:23 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] prd: 遇到逆顺时，我们必须勇于面对，而且要愈挫愈勇，这样我们才能朝著成功之路前进。
+02/21/2026 02:56:23 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] step=1500 cor_f1=0.4758 det_f1=0.5712 cor_p=0.8423 cor_r=0.3315
+02/21/2026 02:56:23 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [gate] mean=0.7206 std=0.0837
+02/21/2026 03:00:12 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - ========== epoch 16/18 ==========
+02/21/2026 03:25:35 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - ========== epoch 17/18 ==========
+02/21/2026 03:36:29 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] sample prediction:
+02/21/2026 03:36:29 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] src: 遇到逆竟时，我们必须勇于面对，而且要愈挫愈勇，这样我们才能朝著成功之路前进。
+02/21/2026 03:36:29 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] trg: 遇到逆境时，我们必须勇于面对，而且要愈挫愈勇，这样我们才能朝著成功之路前进。
+02/21/2026 03:36:29 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] prd: 遇到逆顺时，我们必须勇于面对，而且要愈挫愈勇，这样我们才能朝著成功之路前进。
+02/21/2026 03:36:29 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] step=1650 cor_f1=0.4795 det_f1=0.5722 cor_p=0.8437 cor_r=0.3350
+02/21/2026 03:36:29 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [gate] mean=0.7217 std=0.0836
+02/21/2026 03:53:23 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - ========== epoch 18/18 ==========
+02/21/2026 04:16:42 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] sample prediction:
+02/21/2026 04:16:42 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] src: 遇到逆竟时，我们必须勇于面对，而且要愈挫愈勇，这样我们才能朝著成功之路前进。
+02/21/2026 04:16:42 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] trg: 遇到逆境时，我们必须勇于面对，而且要愈挫愈勇，这样我们才能朝著成功之路前进。
+02/21/2026 04:16:42 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] prd: 遇到逆境时，我们必须勇于面对，而且要愈挫愈勇，这样我们才能朝著成功之路前进。
+02/21/2026 04:16:42 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [eval] step=1800 cor_f1=0.4777 det_f1=0.5702 cor_p=0.8450 cor_r=0.3330
+02/21/2026 04:16:42 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - [gate] mean=0.7222 std=0.0836
+02/21/2026 04:16:42 - INFO - macbert4csc_pinyin_without_wang_seed42_20260220_201252 - training finished: best_cor_f1=0.4795 at step=1650

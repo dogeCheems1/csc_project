@@ -1,0 +1,27 @@
+02/15/2026 18:23:04 - INFO - macbert4csc_pinyin_screen_pinyin_seed42_20260215_182304 - run_dir=D:\Code_Projects\Personal_Projects\csc_project-1\macro_correct\output\text_correction\stage1_screen\screen_pinyin_seed42_20260215_182304
+02/15/2026 18:23:04 - INFO - macbert4csc_pinyin_screen_pinyin_seed42_20260215_182304 - dataset_profile=sighan2015, use_pinyin=True, seed=42
+02/15/2026 18:23:04 - INFO - macbert4csc_pinyin_screen_pinyin_seed42_20260215_182304 - device=cuda, n_gpu=1
+02/15/2026 18:23:08 - INFO - macbert4csc_pinyin_screen_pinyin_seed42_20260215_182304 - train_examples=2339, dev_examples=1100
+02/15/2026 18:23:08 - INFO - macbert4csc_pinyin_screen_pinyin_seed42_20260215_182304 - [sample] id=train-0
+02/15/2026 18:23:08 - INFO - macbert4csc_pinyin_screen_pinyin_seed42_20260215_182304 - [sample] src=我知道去年卫生局和资产局宣布规定关于有几类的食料而这个规定就很清楚。
+02/15/2026 18:23:08 - INFO - macbert4csc_pinyin_screen_pinyin_seed42_20260215_182304 - [sample] trg=我知道去年卫生局和资产局宣布规定关于有机类的食料而这个规定就很清楚。
+02/15/2026 18:23:08 - INFO - macbert4csc_pinyin_screen_pinyin_seed42_20260215_182304 - [sample] id=train-1
+02/15/2026 18:23:08 - INFO - macbert4csc_pinyin_screen_pinyin_seed42_20260215_182304 - [sample] src=如果老师做不好的事情，家长可以马上告诉老师他的措施在哪里，所以会马上改一改哪一方面是错的。
+02/15/2026 18:23:08 - INFO - macbert4csc_pinyin_screen_pinyin_seed42_20260215_182304 - [sample] trg=如果老师做不好的事情，家长可以马上告诉老师他的错是在哪里，所以会马上改一改哪一方面是错的。
+02/15/2026 18:23:08 - INFO - macbert4csc_pinyin_screen_pinyin_seed42_20260215_182304 - [sample] id=train-2
+02/15/2026 18:23:08 - INFO - macbert4csc_pinyin_screen_pinyin_seed42_20260215_182304 - [sample] src=我干快洗澡，洗了一个澡，把我的包包上身，我跑路去等公车。
+02/15/2026 18:23:08 - INFO - macbert4csc_pinyin_screen_pinyin_seed42_20260215_182304 - [sample] trg=我赶快洗澡，洗了一个澡，把我的包包上身，我跑路去等公车。
+02/15/2026 18:23:11 - INFO - macbert4csc_pinyin_screen_pinyin_seed42_20260215_182304 - [sample] id=dev-0
+02/15/2026 18:23:11 - INFO - macbert4csc_pinyin_screen_pinyin_seed42_20260215_182304 - [sample] src=你好！我是张爱文。
+02/15/2026 18:23:11 - INFO - macbert4csc_pinyin_screen_pinyin_seed42_20260215_182304 - [sample] trg=你好！我是张爱文。
+02/15/2026 18:23:11 - INFO - macbert4csc_pinyin_screen_pinyin_seed42_20260215_182304 - [sample] id=dev-1
+02/15/2026 18:23:11 - INFO - macbert4csc_pinyin_screen_pinyin_seed42_20260215_182304 - [sample] src=下个星期，我跟我朋唷打算去法国玩儿。
+02/15/2026 18:23:11 - INFO - macbert4csc_pinyin_screen_pinyin_seed42_20260215_182304 - [sample] trg=下个星期，我跟我朋友打算去法国玩儿。
+02/15/2026 18:23:11 - INFO - macbert4csc_pinyin_screen_pinyin_seed42_20260215_182304 - [sample] id=dev-2
+02/15/2026 18:23:11 - INFO - macbert4csc_pinyin_screen_pinyin_seed42_20260215_182304 - [sample] src=我听说，你找到新工作，我很高兴。
+02/15/2026 18:23:11 - INFO - macbert4csc_pinyin_screen_pinyin_seed42_20260215_182304 - [sample] trg=我听说，你找到新工作，我很高兴。
+02/15/2026 18:23:12 - INFO - macbert4csc_pinyin_screen_pinyin_seed42_20260215_182304 - ***** start training *****
+02/15/2026 18:23:12 - INFO - macbert4csc_pinyin_screen_pinyin_seed42_20260215_182304 - max_train_steps=400, num_train_epochs=11, save_steps=100
+02/15/2026 18:23:12 - INFO - macbert4csc_pinyin_screen_pinyin_seed42_20260215_182304 - ========== epoch 1/11 ==========
+02/15/2026 18:33:13 - INFO - macbert4csc_pinyin_screen_pinyin_seed42_20260215_182304 - ========== epoch 2/11 ==========
+02/15/2026 18:43:16 - INFO - macbert4csc_pinyin_screen_pinyin_seed42_20260215_182304 - ========== epoch 3/11 ==========

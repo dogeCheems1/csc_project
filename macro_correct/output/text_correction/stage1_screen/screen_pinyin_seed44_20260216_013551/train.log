@@ -1,0 +1,60 @@
+02/16/2026 01:35:51 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - run_dir=D:\Code_Projects\Personal_Projects\csc_project-1\macro_correct\output\text_correction\stage1_screen\screen_pinyin_seed44_20260216_013551
+02/16/2026 01:35:51 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - dataset_profile=sighan2015, use_pinyin=True, seed=44
+02/16/2026 01:35:51 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - device=cuda, n_gpu=1
+02/16/2026 01:35:55 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - train_examples=2339, dev_examples=1100
+02/16/2026 01:35:55 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - [sample] id=train-0
+02/16/2026 01:35:55 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - [sample] src=例如说，使用电脑后每三十分钟要休息、在暗暗的地方不可以使用、绝对不可以影像到学校上课等等。
+02/16/2026 01:35:55 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - [sample] trg=例如说，使用电脑后每三十分钟要休息、在暗暗的地方不可以使用、绝对不可以影响到学校上课等等。
+02/16/2026 01:35:55 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - [sample] id=train-1
+02/16/2026 01:35:55 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - [sample] src=在台湾有一个外国人，他要去市大学校但是他不知道市大学校在哪儿，因为他不会说中文还有念中国字也看不懂。
+02/16/2026 01:35:55 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - [sample] trg=在台湾有一个外国人，他要去师大学校但是他不知道师大学校在哪儿，因为他不会说中文还有念中国字也看不懂。
+02/16/2026 01:35:55 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - [sample] id=train-2
+02/16/2026 01:35:55 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - [sample] src=孩子先在也要上高中了吧，你还可以辅导他的学习。
+02/16/2026 01:35:55 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - [sample] trg=孩子现在也要上高中了吧，你还可以辅导他的学习。
+02/16/2026 01:35:57 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - [sample] id=dev-0
+02/16/2026 01:35:57 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - [sample] src=你好！我是张爱文。
+02/16/2026 01:35:57 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - [sample] trg=你好！我是张爱文。
+02/16/2026 01:35:57 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - [sample] id=dev-1
+02/16/2026 01:35:57 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - [sample] src=下个星期，我跟我朋唷打算去法国玩儿。
+02/16/2026 01:35:57 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - [sample] trg=下个星期，我跟我朋友打算去法国玩儿。
+02/16/2026 01:35:57 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - [sample] id=dev-2
+02/16/2026 01:35:57 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - [sample] src=我听说，你找到新工作，我很高兴。
+02/16/2026 01:35:57 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - [sample] trg=我听说，你找到新工作，我很高兴。
+02/16/2026 01:35:59 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - ***** start training *****
+02/16/2026 01:35:59 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - max_train_steps=400, num_train_epochs=11, save_steps=100
+02/16/2026 01:35:59 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - ========== epoch 1/11 ==========
+02/16/2026 01:45:42 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - ========== epoch 2/11 ==========
+02/16/2026 01:55:30 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - ========== epoch 3/11 ==========
+02/16/2026 02:03:15 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - [eval] sample prediction:
+02/16/2026 02:03:15 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - [eval] src: 你好！我是张爱文。
+02/16/2026 02:03:15 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - [eval] trg: 你好！我是张爱文。
+02/16/2026 02:03:15 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - [eval] prd: 你好！我是张爱文。
+02/16/2026 02:03:15 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - [eval] step=100 cor_f1=0.0629 det_f1=0.0830 cor_p=0.6000 cor_r=0.0332
+02/16/2026 02:03:15 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - [gate] mean=0.5886 std=0.0876
+02/16/2026 02:06:03 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - ========== epoch 4/11 ==========
+02/16/2026 02:15:56 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - ========== epoch 5/11 ==========
+02/16/2026 02:25:46 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - ========== epoch 6/11 ==========
+02/16/2026 02:30:30 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - [eval] sample prediction:
+02/16/2026 02:30:30 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - [eval] src: 你好！我是张爱文。
+02/16/2026 02:30:30 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - [eval] trg: 你好！我是张爱文。
+02/16/2026 02:30:30 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - [eval] prd: 你好！我是张爱文。
+02/16/2026 02:30:30 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - [eval] step=200 cor_f1=0.2527 det_f1=0.3565 cor_p=0.7664 cor_r=0.1513
+02/16/2026 02:30:30 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - [gate] mean=0.6117 std=0.0880
+02/16/2026 02:36:15 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - ========== epoch 7/11 ==========
+02/16/2026 02:46:02 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - ========== epoch 8/11 ==========
+02/16/2026 02:55:46 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - ========== epoch 9/11 ==========
+02/16/2026 02:57:37 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - [eval] sample prediction:
+02/16/2026 02:57:37 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - [eval] src: 你好！我是张爱文。
+02/16/2026 02:57:37 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - [eval] trg: 你好！我是张爱文。
+02/16/2026 02:57:37 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - [eval] prd: 你好！我是张爱文。
+02/16/2026 02:57:37 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - [eval] step=300 cor_f1=0.3215 det_f1=0.4368 cor_p=0.8015 cor_r=0.2011
+02/16/2026 02:57:37 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - [gate] mean=0.6269 std=0.0877
+02/16/2026 03:06:16 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - ========== epoch 10/11 ==========
+02/16/2026 03:16:05 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - ========== epoch 11/11 ==========
+02/16/2026 03:24:46 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - [eval] sample prediction:
+02/16/2026 03:24:46 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - [eval] src: 你好！我是张爱文。
+02/16/2026 03:24:46 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - [eval] trg: 你好！我是张爱文。
+02/16/2026 03:24:46 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - [eval] prd: 你好！我是张爱文。
+02/16/2026 03:24:46 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - [eval] step=400 cor_f1=0.3698 det_f1=0.4961 cor_p=0.8075 cor_r=0.2399
+02/16/2026 03:24:46 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - [gate] mean=0.6319 std=0.0877
+02/16/2026 03:24:47 - INFO - macbert4csc_pinyin_screen_pinyin_seed44_20260216_013551 - training finished: best_cor_f1=0.3698 at step=400

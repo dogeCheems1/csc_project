@@ -1,0 +1,151 @@
+02/21/2026 18:43:16 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - run_dir=D:\Code_Projects\Personal_Projects\csc_project-1\macro_correct\output\text_correction\stage1_long_baseline\final_baseline_long_seed44_20260221_184316
+02/21/2026 18:43:16 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - dataset_profile=sighan2015, use_pinyin=False, seed=44
+02/21/2026 18:43:16 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - device=cuda, n_gpu=1
+02/21/2026 18:43:19 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - train_examples=2339, dev_examples=1100
+02/21/2026 18:43:19 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [sample] id=train-0
+02/21/2026 18:43:19 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [sample] src=例如说，使用电脑后每三十分钟要休息、在暗暗的地方不可以使用、绝对不可以影像到学校上课等等。
+02/21/2026 18:43:19 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [sample] trg=例如说，使用电脑后每三十分钟要休息、在暗暗的地方不可以使用、绝对不可以影响到学校上课等等。
+02/21/2026 18:43:19 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [sample] id=train-1
+02/21/2026 18:43:19 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [sample] src=在台湾有一个外国人，他要去市大学校但是他不知道市大学校在哪儿，因为他不会说中文还有念中国字也看不懂。
+02/21/2026 18:43:19 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [sample] trg=在台湾有一个外国人，他要去师大学校但是他不知道师大学校在哪儿，因为他不会说中文还有念中国字也看不懂。
+02/21/2026 18:43:19 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [sample] id=train-2
+02/21/2026 18:43:19 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [sample] src=孩子先在也要上高中了吧，你还可以辅导他的学习。
+02/21/2026 18:43:19 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [sample] trg=孩子现在也要上高中了吧，你还可以辅导他的学习。
+02/21/2026 18:43:21 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [sample] id=dev-0
+02/21/2026 18:43:21 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [sample] src=你好！我是张爱文。
+02/21/2026 18:43:21 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [sample] trg=你好！我是张爱文。
+02/21/2026 18:43:21 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [sample] id=dev-1
+02/21/2026 18:43:21 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [sample] src=下个星期，我跟我朋唷打算去法国玩儿。
+02/21/2026 18:43:21 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [sample] trg=下个星期，我跟我朋友打算去法国玩儿。
+02/21/2026 18:43:21 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [sample] id=dev-2
+02/21/2026 18:43:21 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [sample] src=我听说，你找到新工作，我很高兴。
+02/21/2026 18:43:21 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [sample] trg=我听说，你找到新工作，我很高兴。
+02/21/2026 18:43:22 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ***** start training *****
+02/21/2026 18:43:22 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - max_train_steps=2800, num_train_epochs=76, save_steps=200
+02/21/2026 18:43:22 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 1/76 ==========
+02/21/2026 18:51:24 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 2/76 ==========
+02/21/2026 18:59:27 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 3/76 ==========
+02/21/2026 19:07:32 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 4/76 ==========
+02/21/2026 19:15:33 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 5/76 ==========
+02/21/2026 19:23:31 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 6/76 ==========
+02/21/2026 19:27:27 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] sample prediction:
+02/21/2026 19:27:27 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] src: 你好！我是张爱文。
+02/21/2026 19:27:27 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] trg: 你好！我是张爱文。
+02/21/2026 19:27:27 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] prd: 你好！我是张爱文。
+02/21/2026 19:27:27 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] step=200 cor_f1=0.0465 det_f1=0.0465 cor_p=0.7647 cor_r=0.0240
+02/21/2026 19:32:13 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 7/76 ==========
+02/21/2026 19:40:10 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 8/76 ==========
+02/21/2026 19:48:10 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 9/76 ==========
+02/21/2026 19:56:09 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 10/76 ==========
+02/21/2026 20:04:06 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 11/76 ==========
+02/21/2026 20:11:19 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] sample prediction:
+02/21/2026 20:11:19 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] src: 你好！我是张爱文。
+02/21/2026 20:11:19 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] trg: 你好！我是张爱文。
+02/21/2026 20:11:19 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] prd: 你好！我是张爱文。
+02/21/2026 20:11:19 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] step=400 cor_f1=0.3034 det_f1=0.3424 cor_p=0.7518 cor_r=0.1900
+02/21/2026 20:12:44 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 12/76 ==========
+02/21/2026 20:20:42 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 13/76 ==========
+02/21/2026 20:28:42 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 14/76 ==========
+02/21/2026 20:36:43 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 15/76 ==========
+02/21/2026 20:44:44 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 16/76 ==========
+02/21/2026 20:52:41 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 17/76 ==========
+02/21/2026 20:55:05 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] sample prediction:
+02/21/2026 20:55:05 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] src: 你好！我是张爱文。
+02/21/2026 20:55:05 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] trg: 你好！我是张爱文。
+02/21/2026 20:55:05 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] prd: 你好！我是张爱文。
+02/21/2026 20:55:05 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] step=600 cor_f1=0.4080 det_f1=0.4712 cor_p=0.7356 cor_r=0.2823
+02/21/2026 21:01:20 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 18/76 ==========
+02/21/2026 21:09:19 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 19/76 ==========
+02/21/2026 21:17:17 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 20/76 ==========
+02/21/2026 21:25:17 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 21/76 ==========
+02/21/2026 21:33:18 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 22/76 ==========
+02/21/2026 21:39:01 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] sample prediction:
+02/21/2026 21:39:01 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] src: 你好！我是张爱文。
+02/21/2026 21:39:01 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] trg: 你好！我是张爱文。
+02/21/2026 21:39:01 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] prd: 你好！我是张爱文。
+02/21/2026 21:39:01 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] step=800 cor_f1=0.4358 det_f1=0.5129 cor_p=0.7336 cor_r=0.3100
+02/21/2026 21:41:57 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 23/76 ==========
+02/21/2026 21:49:54 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 24/76 ==========
+02/21/2026 21:57:51 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 25/76 ==========
+02/21/2026 22:05:52 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 26/76 ==========
+02/21/2026 22:13:52 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 27/76 ==========
+02/21/2026 22:21:51 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 28/76 ==========
+02/21/2026 22:22:42 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] sample prediction:
+02/21/2026 22:22:42 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] src: 你好！我是张爱文。
+02/21/2026 22:22:42 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] trg: 你好！我是张爱文。
+02/21/2026 22:22:42 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] prd: 你好！我是张爱文。
+02/21/2026 22:22:42 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] step=1000 cor_f1=0.4566 det_f1=0.5172 cor_p=0.7397 cor_r=0.3303
+02/21/2026 22:30:31 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 29/76 ==========
+02/21/2026 22:38:30 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 30/76 ==========
+02/21/2026 22:46:26 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 31/76 ==========
+02/21/2026 22:54:28 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 32/76 ==========
+02/21/2026 23:02:26 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 33/76 ==========
+02/21/2026 23:06:38 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] sample prediction:
+02/21/2026 23:06:38 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] src: 你好！我是张爱文。
+02/21/2026 23:06:38 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] trg: 你好！我是张爱文。
+02/21/2026 23:06:38 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] prd: 你好！我是张爱文。
+02/21/2026 23:06:38 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] step=1200 cor_f1=0.4799 det_f1=0.5457 cor_p=0.7520 cor_r=0.3524
+02/21/2026 23:11:07 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 34/76 ==========
+02/21/2026 23:19:05 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 35/76 ==========
+02/21/2026 23:27:08 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 36/76 ==========
+02/21/2026 23:35:06 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 37/76 ==========
+02/21/2026 23:43:04 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 38/76 ==========
+02/21/2026 23:50:26 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] sample prediction:
+02/21/2026 23:50:26 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] src: 你好！我是张爱文。
+02/21/2026 23:50:26 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] trg: 你好！我是张爱文。
+02/21/2026 23:50:26 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] prd: 你好！我是张爱文。
+02/21/2026 23:50:26 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] step=1400 cor_f1=0.4825 det_f1=0.5513 cor_p=0.7481 cor_r=0.3561
+02/21/2026 23:51:37 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 39/76 ==========
+02/21/2026 23:59:38 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 40/76 ==========
+02/22/2026 00:07:36 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 41/76 ==========
+02/22/2026 00:15:35 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 42/76 ==========
+02/22/2026 00:23:35 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 43/76 ==========
+02/22/2026 00:31:37 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 44/76 ==========
+02/22/2026 00:34:14 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] sample prediction:
+02/22/2026 00:34:14 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] src: 你好！我是张爱文。
+02/22/2026 00:34:14 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] trg: 你好！我是张爱文。
+02/22/2026 00:34:14 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] prd: 你好！我是张爱文。
+02/22/2026 00:34:14 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] step=1600 cor_f1=0.4932 det_f1=0.5660 cor_p=0.7509 cor_r=0.3672
+02/22/2026 00:40:16 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 45/76 ==========
+02/22/2026 00:48:17 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 46/76 ==========
+02/22/2026 00:56:17 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 47/76 ==========
+02/22/2026 01:04:15 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 48/76 ==========
+02/22/2026 01:12:12 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 49/76 ==========
+02/22/2026 01:18:07 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] sample prediction:
+02/22/2026 01:18:07 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] src: 你好！我是张爱文。
+02/22/2026 01:18:07 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] trg: 你好！我是张爱文。
+02/22/2026 01:18:07 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] prd: 你好！我是张爱文。
+02/22/2026 01:18:07 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] step=1800 cor_f1=0.4975 det_f1=0.5636 cor_p=0.7634 cor_r=0.3690
+02/22/2026 01:20:52 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 50/76 ==========
+02/22/2026 01:28:50 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 51/76 ==========
+02/22/2026 01:36:46 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 52/76 ==========
+02/22/2026 01:44:44 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 53/76 ==========
+02/22/2026 01:52:42 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 54/76 ==========
+02/22/2026 02:00:41 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 55/76 ==========
+02/22/2026 02:01:45 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] sample prediction:
+02/22/2026 02:01:45 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] src: 你好！我是张爱文。
+02/22/2026 02:01:45 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] trg: 你好！我是张爱文。
+02/22/2026 02:01:45 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] prd: 你好！我是张爱文。
+02/22/2026 02:01:45 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] step=2000 cor_f1=0.4913 det_f1=0.5592 cor_p=0.7500 cor_r=0.3653
+02/22/2026 02:09:19 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 56/76 ==========
+02/22/2026 02:17:18 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 57/76 ==========
+02/22/2026 02:25:19 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 58/76 ==========
+02/22/2026 02:33:17 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 59/76 ==========
+02/22/2026 02:41:15 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 60/76 ==========
+02/22/2026 02:45:38 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] sample prediction:
+02/22/2026 02:45:38 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] src: 你好！我是张爱文。
+02/22/2026 02:45:38 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] trg: 你好！我是张爱文。
+02/22/2026 02:45:38 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] prd: 你好！我是张爱文。
+02/22/2026 02:45:38 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] step=2200 cor_f1=0.4957 det_f1=0.5667 cor_p=0.7547 cor_r=0.3690
+02/22/2026 02:49:53 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 61/76 ==========
+02/22/2026 02:57:48 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 62/76 ==========
+02/22/2026 03:05:47 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 63/76 ==========
+02/22/2026 03:13:44 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 64/76 ==========
+02/22/2026 03:21:41 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - ========== epoch 65/76 ==========
+02/22/2026 03:29:22 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] sample prediction:
+02/22/2026 03:29:22 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] src: 你好！我是张爱文。
+02/22/2026 03:29:22 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] trg: 你好！我是张爱文。
+02/22/2026 03:29:22 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] prd: 你好！我是张爱文。
+02/22/2026 03:29:22 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - [eval] step=2400 cor_f1=0.4932 det_f1=0.5626 cor_p=0.7509 cor_r=0.3672
+02/22/2026 03:29:22 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - early stop triggered at step=2400
+02/22/2026 03:29:22 - INFO - macbert4csc_pinyin_final_baseline_long_seed44_20260221_184316 - training finished: best_cor_f1=0.4975 at step=1800

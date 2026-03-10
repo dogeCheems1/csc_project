@@ -169,3 +169,43 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# ============================================================
+# ML Project - CSC (Chinese Spelling Correction)
+# ============================================================
+
+# 模型权重文件（体积过大，488MB/个，不上传 GitHub）
+*.bin
+*.pt
+*.ckpt
+*.safetensors
+*.pth
+*.h5
+
+# TensorBoard 事件文件（不需要备份）
+events.out.tfevents.*
+
+# 中间训练检查点目录（过多冗余文件，不上传）
+macro_correct/output/text_correction/stage1_confirm/
+macro_correct/output/text_correction/smoke_test/
+macro_correct/output/text_correction/smoke_test2/
+macro_correct/output/text_correction/smoke_test3/
+macro_correct/output/text_correction/sighan2015_baseline_quick/
+macro_correct/output/text_correction/sighan2015_pinyin_quick/
+macro_correct/output/text_correction/sighan2015_pinyin_fusion/
+macro_correct/output/text_correction/plots/
+
+# IDE 配置（不需要上传）
+.idea/
+
+# 覆盖 *.log 规则，保留 train.log（训练过程记录，论文重要佐证）
+!**/train.log
+
+# 大体积数据集文件（train.json ~97MB，接近 GitHub 100MB 限制，不上传）
+# 保留：test.json(0.34MB)、处理脚本.py、README.md
+macro_correct/corpus/text_correction/wang271k/train.json
+macro_correct/corpus/text_correction/wang271k/train.json.handle_clean
+macro_correct/corpus/text_correction/wang271k/dev.json.handle_clean
+macro_correct/corpus/text_correction/wang271k/valid.json
+# .cache 目录（HuggingFace缓存）
+macro_correct/corpus/text_correction/wang271k/.cache/

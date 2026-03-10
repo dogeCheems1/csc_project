@@ -1,0 +1,22 @@
+02/21/2026 04:16:43 - INFO - macbert4csc_pinyin_with_wang_seed42_20260221_041643 - run_dir=D:\Code_Projects\Personal_Projects\csc_project-1\macro_correct\output\text_correction\stage2_wang\with_wang_seed42_20260221_041643
+02/21/2026 04:16:43 - INFO - macbert4csc_pinyin_with_wang_seed42_20260221_041643 - dataset_profile=sighan_plus_wang, use_pinyin=True, seed=42
+02/21/2026 04:16:43 - INFO - macbert4csc_pinyin_with_wang_seed42_20260221_041643 - device=cuda, n_gpu=1
+02/21/2026 04:18:18 - INFO - macbert4csc_pinyin_with_wang_seed42_20260221_041643 - train_examples=258311, dev_examples=1100
+02/21/2026 04:18:18 - INFO - macbert4csc_pinyin_with_wang_seed42_20260221_041643 - [sample] id=train-0
+02/21/2026 04:18:18 - INFO - macbert4csc_pinyin_with_wang_seed42_20260221_041643 - [sample] src=而阿拉伯国家似乎与巴格达划清养线，埃及总统穆巴拉克促请沙丹胡笙把握机会允许联台国武检专家重返伊拉克。
+02/21/2026 04:18:18 - INFO - macbert4csc_pinyin_with_wang_seed42_20260221_041643 - [sample] trg=而阿拉伯国家似乎与巴格达划清界线，埃及总统穆巴拉克促请沙丹胡笙把握机会允许联合国武检专家重返伊拉克。
+02/21/2026 04:18:18 - INFO - macbert4csc_pinyin_with_wang_seed42_20260221_041643 - [sample] id=train-1
+02/21/2026 04:18:18 - INFO - macbert4csc_pinyin_with_wang_seed42_20260221_041643 - [sample] src=巴瑞克的办公室拒绝对此项报导发表评论。巴瑞克曾一再表示，只要席卷以巴地区逾十周的暴力冲突减少，谈判大门仍然敝开。
+02/21/2026 04:18:18 - INFO - macbert4csc_pinyin_with_wang_seed42_20260221_041643 - [sample] trg=巴瑞克的办公室拒绝对此项报导发表评论。巴瑞克曾一再表示，只要席卷以巴地区逾十周的暴力冲突减少，谈判大门仍然敞开。
+02/21/2026 04:18:18 - INFO - macbert4csc_pinyin_with_wang_seed42_20260221_041643 - [sample] id=train-2
+02/21/2026 04:18:18 - INFO - macbert4csc_pinyin_with_wang_seed42_20260221_041643 - [sample] src=鲁拉表示，胡锦涛尌励巴酉在国际组织中伴演更重要的角色，特别是在联合国。
+02/21/2026 04:18:18 - INFO - macbert4csc_pinyin_with_wang_seed42_20260221_041643 - [sample] trg=鲁拉表示，胡锦涛鼓励巴西在国际组织中扮演更重要的角色，特别是在联合国。
+02/21/2026 04:33:03 - INFO - macbert4csc_pinyin_with_wang_seed42_20260221_041643 - [sample] id=dev-0
+02/21/2026 04:33:03 - INFO - macbert4csc_pinyin_with_wang_seed42_20260221_041643 - [sample] src=你好！我是张爱文。
+02/21/2026 04:33:03 - INFO - macbert4csc_pinyin_with_wang_seed42_20260221_041643 - [sample] trg=你好！我是张爱文。
+02/21/2026 04:33:03 - INFO - macbert4csc_pinyin_with_wang_seed42_20260221_041643 - [sample] id=dev-1
+02/21/2026 04:33:03 - INFO - macbert4csc_pinyin_with_wang_seed42_20260221_041643 - [sample] src=下个星期，我跟我朋唷打算去法国玩儿。
+02/21/2026 04:33:03 - INFO - macbert4csc_pinyin_with_wang_seed42_20260221_041643 - [sample] trg=下个星期，我跟我朋友打算去法国玩儿。
+02/21/2026 04:33:03 - INFO - macbert4csc_pinyin_with_wang_seed42_20260221_041643 - [sample] id=dev-2
+02/21/2026 04:33:03 - INFO - macbert4csc_pinyin_with_wang_seed42_20260221_041643 - [sample] src=我听说，你找到新工作，我很高兴。
+02/21/2026 04:33:03 - INFO - macbert4csc_pinyin_with_wang_seed42_20260221_041643 - [sample] trg=我听说，你找到新工作，我很高兴。

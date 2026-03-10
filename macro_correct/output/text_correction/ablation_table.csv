@@ -1,0 +1,9 @@
+dataset_profile,use_pinyin,count,mean_best_cor_f1
+sighan2013,False,4,0.1900
+sighan2013,True,4,0.2055
+sighan2014,False,3,0.4248
+sighan2014,True,3,0.4949
+sighan2015,False,7,0.3674
+sighan2015,True,7,0.4553
+sighan_all,True,1,0.4795
+sighan_plus_wang,True,1,0.5390

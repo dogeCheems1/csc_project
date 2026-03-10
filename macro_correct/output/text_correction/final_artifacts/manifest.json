@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-02-22T09:10:44",
+  "copied_files": [
+    "D:\\Code_Projects\\Personal_Projects\\csc_project-1\\macro_correct\\output\\text_correction\\results_summary_confirm.csv",
+    "D:\\Code_Projects\\Personal_Projects\\csc_project-1\\macro_correct\\output\\text_correction\\ablation_table_confirm.csv",
+    "D:\\Code_Projects\\Personal_Projects\\csc_project-1\\macro_correct\\output\\text_correction\\stability_table_confirm.csv",
+    "D:\\Code_Projects\\Personal_Projects\\csc_project-1\\macro_correct\\output\\text_correction\\results_summary.csv",
+    "D:\\Code_Projects\\Personal_Projects\\csc_project-1\\macro_correct\\output\\text_correction\\ablation_table.csv",
+    "D:\\Code_Projects\\Personal_Projects\\csc_project-1\\macro_correct\\output\\text_correction\\stability_table.csv",
+    "D:\\Code_Projects\\Personal_Projects\\csc_project-1\\macro_correct\\output\\text_correction\\stage1_long_final_result.json",
+    "D:\\Code_Projects\\Personal_Projects\\csc_project-1\\macro_correct\\output\\text_correction\\stage1_long_baseline_result.json",
+    "D:\\Code_Projects\\Personal_Projects\\csc_project-1\\macro_correct\\output\\text_correction\\stage2_wang_results.json"
+  ],
+  "plots_dir": "D:\\Code_Projects\\Personal_Projects\\csc_project-1\\macro_correct\\output\\text_correction\\final_artifacts\\plots_confirm_stage2",
+  "sample_files": [
+    "D:\\Code_Projects\\Personal_Projects\\csc_project-1\\macro_correct\\output\\text_correction\\final_artifacts\\sample_analysis_20.json",
+    "D:\\Code_Projects\\Personal_Projects\\csc_project-1\\macro_correct\\output\\text_correction\\final_artifacts\\sample_analysis_20.md"
+  ]
+}

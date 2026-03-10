@@ -15,7 +15,7 @@ import copy
 import json
 import os
 
-from transformers import AdamW, get_linear_schedule_with_warmup, get_scheduler
+from transformers import get_linear_schedule_with_warmup, get_scheduler
 # from torch.utils.data import DataLoader, RandomSampler
 import torch
 

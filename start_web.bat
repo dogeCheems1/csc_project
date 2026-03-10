@@ -4,8 +4,8 @@ echo ====================================================
 echo    中文文本智能纠错系统 - Web 启动脚本
 echo ====================================================
 echo.
-echo 正在激活 conda 环境...
-call conda activate csc_project
+echo 正在激活虚拟环境...
+call venv\Scripts\activate.bat
 echo.
 echo 正在启动 Web 应用...
 echo.

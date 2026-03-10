@@ -5,8 +5,20 @@
 
 import gradio as gr
 import os
+import sys
 import pandas as pd
 from datetime import datetime
+
+# 设置标准输出编码为 UTF-8（Windows 兼容）
+if sys.platform == 'win32':
+    try:
+        sys.stdout.reconfigure(encoding='utf-8')
+        sys.stderr.reconfigure(encoding='utf-8')
+    except AttributeError:
+        # Python < 3.7 兼容
+        import codecs
+        sys.stdout = codecs.getwriter('utf-8')(sys.stdout.buffer, 'strict')
+        sys.stderr = codecs.getwriter('utf-8')(sys.stderr.buffer, 'strict')
 
 # ============== 环境配置 ==============
 # 禁用所有代理设置
@@ -25,11 +37,10 @@ os.environ["MACRO_CORRECT_FLAG_CSC_TOKEN"] = "1"
 # 导入纠错模块
 try:
     from macro_correct import correct
-    print("✅ 成功导入 macro_correct.correct 函数")
+    print("[成功] 成功导入 macro_correct.correct 函数")
 except ImportError as e:
-    print(f"❌ 导入失败: {e}")
+    print(f"[失败] 导入失败: {e}")
     print("请确保已安装 macro-correct 包：pip install -e .")
-    import sys
     sys.exit(1)
 
 # ============== 核心功能函数 ==============
